@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b2a574400e223f987c62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_ros_warehouse",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_init_demo_warehouse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_init_demo_warehouse-Release-d2a232f377c5be886cfc.json",
+					"name" : "moveit_init_demo_warehouse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_warehouse_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_warehouse_uninstall-Release-b3902ccd52f6919f6421.json",
+					"name" : "moveit_ros_warehouse_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_save_to_warehouse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_save_to_warehouse-Release-abea908264982f40faf0.json",
+					"name" : "moveit_save_to_warehouse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_warehouse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_warehouse-Release-b26f8e26bcb3d1c4bece.json",
+					"name" : "moveit_warehouse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_warehouse_broadcast::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_warehouse_broadcast-Release-57e2f2240c1b68b3a42c.json",
+					"name" : "moveit_warehouse_broadcast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_warehouse_import_from_text::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_warehouse_import_from_text-Release-20e907218344db4c19e6.json",
+					"name" : "moveit_warehouse_import_from_text",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_warehouse_save_as_text::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_warehouse_save_as_text-Release-646c7d9e1c27614b73f3.json",
+					"name" : "moveit_warehouse_save_as_text",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_warehouse_services::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_warehouse_services-Release-cdb928d2ffdf54b3ea82.json",
+					"name" : "moveit_warehouse_services",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f28f6479db8ac67a467d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tingjia/workspace/src/ws_moveit/build/moveit_ros_warehouse",
+		"source" : "/home/tingjia/workspace/src/ws_moveit/src/moveit2/moveit_ros/warehouse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,157 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bd35e1eddf1fc0a073f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosparam_shortcuts",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-f859a6e8dcc6abcb6c44.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-57535cf0cd27243a3fef.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosparam_shortcuts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosparam_shortcuts-f647c848f61f1791293e.json",
+					"name" : "rosparam_shortcuts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosparam_shortcuts_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosparam_shortcuts_example-b9dddae5e07f3276117b.json",
+					"name" : "rosparam_shortcuts_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosparam_shortcuts_node_parameters_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosparam_shortcuts_node_parameters_example-cf8feeceeaa999c1c756.json",
+					"name" : "rosparam_shortcuts_node_parameters_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosparam_shortcuts_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosparam_shortcuts_uninstall-066765afa247ba36a984.json",
+					"name" : "rosparam_shortcuts_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_node_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_node_parameters-d2e8bd9360a670d504ef.json",
+					"name" : "test_node_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2275c7679541b8da83e4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tingjia/workspace/src/ws_moveit/build/rosparam_shortcuts",
+		"source" : "/home/tingjia/workspace/src/ws_moveit/src/rosparam_shortcuts"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

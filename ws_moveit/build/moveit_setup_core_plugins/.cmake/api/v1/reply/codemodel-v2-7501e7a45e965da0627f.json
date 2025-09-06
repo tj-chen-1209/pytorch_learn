@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-246e0f126b83ca61a872.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_setup_core_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins-Release-f4cb676c6c7a8f2ab6ec.json",
+					"name" : "moveit_setup_core_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins_autogen-Release-5c7e45f8cf7e8e06a0f5.json",
+					"name" : "moveit_setup_core_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins_uninstall-Release-8d9d5e09241818ee528c.json",
+					"name" : "moveit_setup_core_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-dc03cb97ed38a3b1f2d8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tingjia/workspace/src/ws_moveit/build/moveit_setup_core_plugins",
+		"source" : "/home/tingjia/workspace/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
